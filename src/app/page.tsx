@@ -113,7 +113,6 @@ export default function LandingPage() {
           imageAlt={getAssetAlt("hero-restaurant-interior", "Elegant restaurant interior with fine dining setup")}
           showBlur={true}
           textPosition="bottom"
-          useInvertedBackground={false}
           tagAnimation="slide-up"
           buttonAnimation="slide-up"
         />
@@ -243,8 +242,6 @@ export default function LandingPage() {
       </div>
       <div id="footer" data-section="footer">
         <FooterMedia
-          imageSrc={getAssetUrl("footer-restaurant-exterior")}
-          imageAlt={getAssetAlt("footer-restaurant-exterior", "Exterior view of Takshashila House Restaurant at night")}
           videoSrc=""
           logoText="Takshashila House"
           columns={[
